@@ -1,0 +1,44 @@
+/* Background container */
+.pg-bg{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/home/Thamir/recipe/frontend/src/components/image/img2.jpg") no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Form container */
+.form-container {
+  background-color: #D6F6D5;
+  padding: 2rem;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+  text-align:  center;
+  opacity: 0.98; /* keep background image slightly visible */
+}
+
+/* Form inputs */
+
+.recipe-input input{
+  width: 90%;
+  margin: 0.6rem 0;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Button styling */
+.form-container button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background-color: black;
+}
